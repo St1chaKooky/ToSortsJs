@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('./ways.css');
+
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(to right bottom, rgb(119, 221, 247), rgb(248, 147, 235));
+}
+.title > p {
+    font-size: 5em;
+}
+.input {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input > .el {
+    background: #fff;
+    border: none;
+    display: grid;
+    place-items: center;
+    border-radius: 18px;
+}
+.el > input {
+    border: none;
+    height: 70px;
+    width: 45px;
+    font-size: 2em;
+    outline: none;
+    text-align: center;
+    border-radius: 18px;
+}
+.ways {
+    display: flex;
+    gap: 20px;
+}
+.output > div {
+    min-width: 200px;
+    min-height: 90px;
+    background: #fff;
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.output > div > p {
+    text-align: center;
+    word-break: keep-all;
+    width: max-content;
+    height: max-content;
+    padding: 25px;
+    font-size: 2em;
+}
